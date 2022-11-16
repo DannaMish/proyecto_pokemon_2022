@@ -22,7 +22,7 @@ flex-basis: 50%;
     grid-template-columns: repeat(auto-fit,minmax(200px,0.5fr));
     grid-gap:2rem;
 }
-.card{
+.Card{
     width: 300px;
     background-color: #9EDEF9;
     border-radius: 1rem;
