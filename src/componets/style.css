@@ -43,6 +43,7 @@ flex-basis: 50%;
 }
 .right-content img{
     margin: 2rem;
+    height: 100px;
 }
 .right-content h1{
     text-transform: uppercase;
