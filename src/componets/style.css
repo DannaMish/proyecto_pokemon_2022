@@ -6,7 +6,7 @@
     font-family: 'Roboto', sans-serif;
 }
 body{
-    background-color: blueviolet;
+    background-color: coral;
 }
 .container{
     width: 90%;
@@ -32,5 +32,53 @@ flex-basis: 50%;
     align-items: center;
     justify-content: space-between;
     box-sizing: border-box;
-
+}
+.right-content{
+    width: 50%;
+    text-align: center;
+    color: black;
+    position: fixed;
+    top: 100px;
+    right: 10px;
+}
+.right-content img{
+    margin: 2rem;
+}
+.right-content h1{
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.abilities{
+    width: 30%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 1rem;
+}
+.abilities .group{
+    background-color: #b74555;
+    color: white;
+    padding: 0.5rem;
+    font-size: 12px;
+    border-radius: 8px;
+}
+.base-stat{
+margin-top: 2rem;
+}
+.btn-group{
+display: flex;
+}
+.btn-group button{
+    outline: none;
+    border: none;
+    width: 150px;
+    padding: 0.3rem 0;
+    margin: 1rem;
+    font-size: 17px;
+    font-weight: bold;
+    color: white;
+    background-color: #b74555;
+    border-radius: 8px;
 }
